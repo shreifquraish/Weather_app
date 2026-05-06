@@ -1,0 +1,55 @@
+name: weather_forecast
+description: Weather Forecast App with Firebase & SQLite
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Core
+  flutter_native_splash: ^2.3.0
+  
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  
+  # Networking
+  dio: ^5.4.0
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Utilities
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
+flutter_native_splash:
+  color: "#0288D1"
+  image: assets/logo.png
+  android: true
+  ios: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "img/icooon.png"
