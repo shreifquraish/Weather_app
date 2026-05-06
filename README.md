@@ -1,16 +1,51 @@
-# weather_app
+# 🌤️ Weather Forecast - تطبيق توقعات الطقس
 
-A new Flutter project.
+تطبيق لتوقعات الطقس يوفر تحديثات فورية وبيانات أرصاد جوية دقيقة لمدن حول العالم من خلال واجهة حديثة وسلسة. يمكن للمستخدمين البحث عن أي موقع عالمي لعرض الظروف الجوية التفصيلية.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 نظرة عامة على التطبيق
 
-A few resources to get you started if this is your first Flutter project:
+| العنصر | التفاصيل |
+|--------|----------|
+| 🌍 **المدن المدعومة** | جميع مدن العالم |
+| 📡 **تحديثات فورية** | بيانات حية ومباشرة |
+| 🎨 **واجهة مستخدم** | تصميم حديث وأنيق |
+| 🌡️ **دقة البيانات** | معلومات أرصاد دقيقة |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ المميزات الرئيسية
+
+### 🔍 البحث عن المدن
+- البحث عن أي مدينة حول العالم
+- اقتراحات أثناء الكتابة (Auto-complete)
+- دعم الأسماء باللغتين العربية والإنجليزية
+
+### 📊 الظروف الجوية الحالية
+| المعلومة | الوصف |
+|----------|-------|
+| 🌡️ **درجة الحرارة** | الحالية والمحسوسة (Feels like) |
+| ☁️ **حالة الطقس** | مشمس، غائم، ممطر، إلخ |
+| 💨 **سرعة الرياح** | بالكيلومتر/ساعة أو ميل/ساعة |
+| 💧 **نسبة الرطوبة** | Humidity percentage |
+| 📈 **الضغط الجوي** | Atmospheric pressure |
+
+### 📅 توقعات 5 أيام
+- توقعات يومية مفصلة
+- مؤشرات بصرية واضحة (أيقونات شمس/غيوم)
+- درجات الحرارة العظمى والصغرى
+
+---
+
+## 🛠️ التقنيات المستخدمة *(المتوقعة)*
+
+| التقنية | الاستخدام |
+|---------|-----------|
+| **Flutter / React Native** | تطوير واجهة المستخدم |
+| **OpenWeatherMap API** | بيانات الطقس |
+| **WeatherAPI.com** | مصدر بديل للبيانات |
+| **SQLite / Hive** | تخزين المدن المفضلة محلياً |
+| **RESTful API** | جلب البيانات من الخادم |
+
+
